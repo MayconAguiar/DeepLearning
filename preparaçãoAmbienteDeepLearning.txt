@@ -1,0 +1,23 @@
+baixar o anaconda.com para win64
+instalar o anaconda
+acessar o anaconda navigator para ver se está tudo ok
+acessar o anaconda prompt
+
+conda create --name tensorflow python=3.5
+
+activate tensorflow
+pip install --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-0.12.1-cp35-cp35m-win_amd64.whl --ignore-installed
+pip install --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.11.0-cp35-cp35m-win_amd64.whl --ignore-installed
+pip install tensorflow==1.5
+pip install --upgrade https://github.com/fo40225/tensorflow-windows-wheel/blob/master/1.11.0/py37/CPU/sse2/tensorflow-1.11.0-cp37-cp37m-win_amd64.whl  --ignore-installed
+pip install keras
+instalar o spyder pelo navigator
+definir a pasta padrão
+ctrl+cmd+enter para executar a linha
+ctrl+cmd+i para ajuda
+
+--Hello World
+a=5
+b=5
+import numpy as np
+np.max([3,5])
